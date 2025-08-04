@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Outlaws, Honor &amp; Code</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header class="hero">
+  <h1>Outlaws, Honor & Code</h1>
+  <p>A Tribute to Red Dead Redemption 2</p>
+</header>
+
+<nav class="tab-nav">
+  <button class="tab-button active" onclick="openTab('history')">Story & Values</button>
+  <button class="tab-button" onclick="openTab('tech')">Game Innovation</button>
+  <button class="tab-button" onclick="openTab('personal')">My Reflection</button>
+  <button class="tab-button" onclick="openTab('quotes')">Quotes</button>
+</nav>
+
+<main class="tab-content">
+
+  <!-- Story & Values -->
+  <section id="history" class="tab active-tab">
+    <h2>The Story Behind the Outlaw</h2>
+    <img src="https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/10137177/49c7d29293f89dfef95969fde62f5c27e7cc780c.jpg?quality=90&strip=all&crop=7.8125,0,84.375,100" alt="Arthur Morgan looking over the valley" class="section-img" />
+    <p>
+      Red Dead Redemption 2 tells the story of Arthur Morgan, a hardened but conflicted outlaw. As a member of the Van der Linde gang, Arthur must navigate the crumbling moral framework of the Wild West while wrestling with his own sense of loyalty and personal redemption.
+    </p>
+    <p>
+      The game explores deep human values:
+    </p>
+    <ul>
+      <li>Loyalty to those you consider family</li>
+      <li>The inner struggle between honor and survival</li>
+      <li>The yearning for freedom in an increasingly controlled world</li>
+      <li>The importance of family—both biological and chosen</li>
+      <li>The potential for personal redemption, even after a life of violence</li>
+    </ul>
+    <p>
+      These themes are not only embedded in the narrative but also influence how the player chooses to behave. Each decision carries moral weight, contributing to a nuanced and personal story.
+    </p>
+  </section>
+
+  <!-- Technical Innovation -->
+  <section id="tech" class="tab">
+    <h2>A Milestone in Game Development</h2>
+    <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/07/braithwaite-manor.jpg" alt="Dutch's gang riding horses" class="section-img" />
+    <p>
+      RDR2 is a technical masterpiece. Rockstar Games invested nearly a decade into its development, resulting in one of the most ambitious open-world games ever made.
+    </p>
+    <ul>
+      <li>Highly detailed world with dynamic weather, realistic animal behavior, and environmental storytelling</li>
+      <li>NPCs with unique routines and adaptive dialogue systems</li>
+      <li>Complex honor and morality systems that affect story outcomes</li>
+      <li>Meticulous animations and seamless transitions between cutscenes and gameplay</li>
+      <li>Immersive audio design, from wildlife to voice acting, reinforcing the world’s authenticity</li>
+    </ul>
+    <p>
+      These features set a new standard in realism and narrative interactivity, influencing the direction of future game development across the industry.
+    </p>
+  </section>
+
+  <!-- Personal Reflection -->
+<section id="personal" class="tab">
+  <h2>What RDR2 Taught Me</h2>
+  <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/03/red-dead-redemption-2-horse-arthur-morgan.jpg" alt="Arthur with his horse" class="section-img" />
+  <p>
+    Red Dead Redemption 2 impacted me beyond entertainment. It became a lens through which I examined concepts of identity, sacrifice, and the gray areas of morality.
+  </p>
+  <p>
+    Arthur Morgan is not a typical video game hero. His internal conflict made me reflect on what it means to do the right thing even when it’s inconvenient or painful. I learned that loyalty can be virtuous—but also destructive. That freedom isn't always about escaping, but often about facing consequences.
+  </p>
+
+
+  <p>
+    The game also taught me about relationships. The bond between Arthur and his horse is symbolic of trust. His interactions with Dutch, John, and others reveal the weight of leadership, betrayal, and regret.
+  </p>
+  <div class="video-container">
+  <iframe 
+    src="https://www.youtube.com/embed/EY4Y96tWh4g" 
+    title="Arthur Morgan | Redemption"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
+  </section>
+  
+  <!-- Quote Section -->
+  <section id="quotes" class="tab">
+    <h2>Western Wisdom</h2>
+    <img src="https://i.redd.it/ad594omfw4u61.jpg" alt="RDR2 sunset scene" class="section-img" />
+    <p id="quote">Loading quote...</p>
+    <button class="reload-btn" onclick="getQuote()">New Quote</button>
+  </section>
+
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
